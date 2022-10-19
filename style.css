@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'AnnaITCTT';
+      src: url('fonts/AnnaITCTT.eot'); /* IE9 Compat Modes */
+      src: url('fonts/AnnaITCTT.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('fonts/AnnaITCTT.woff2') format('woff2'), /* Super Modern Browsers */
+          url('fonts/AnnaITCTT.woff') format('woff'), /* Pretty Modern Browsers */
+          url('fonts/AnnaITCTT.ttf')  format('truetype'), /* Safari, Android, iOS */
+          url('fonts/AnnaITCTT.svg#svgFontName') format('svg'); /* Legacy iOS */
+      font-weight: 400;
+      font-style: normal;
+}
+
+
+nav {
+    background-color: #991b1b;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 1%;
+    font-size: 150%;
+}
+
+
+.nav01 {
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    margin: 0% 25% 0% 48%;
+    margin-bottom: 15px;
+}
+
+.space {
+    margin-right: 25%;
+}
+
+.nav02 {
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+justify-content: center;
+} 
+
+body {
+    margin: 0%;
+    font-family: 'AnnaITCTT';
+    background-color: #DDDFE3;
+}
+
+:any-link {
+    text-decoration: none;
+    color: white;
+}
+
+:visited {
+    color: white;
+}
+
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    word-spacing: 8px;
+    margin: 2%;
+}
+
+.title {
+    font-size: 300%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background: #991b1b;
+    overflow-wrap: break-word;
+    padding: 2%;
+    word-spacing: 8px;
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+.shape {
+	width: 125px;
+	height: 50px;
+	transform: skew(-20deg) rotate(-2deg);
+	background: #991b1b;
+    position: absolute;
+    left: 52.5%;
+    top: 15.2%;
+    z-index: -1;
+}
+
+/*
+    ======================================================================== 
+    text and img
+    ======================================================================== 
+*/
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    text-align: center;
+}
+.main img {
+    width: 50%;
+}
+.main p {
+    display: flex;
+    margin: 5% 8% 0% 8%;
+    text-align: center;
+    max-width: 30%;
+    font-size: 130%;
+}
+
+.lefttext {
+    justify-content: center;
+}
+
+.righttext {
+    justify-content: center;
+    left: auto;
+    
+}
+
+.SubTitleR {
+    justify-content: center;
+    left: auto;
+    
+}
+
+.DescR {
+    text-align: center;
+}
+
+.enjeux img {
+    float: right;
+    /* margin-top: -95px; */
+}
+.expertise img {
+    float: left;
+    margin-top: -95px;
+}
+.strat img {
+    float: right;
+    margin-top: -95px;
+    margin-bottom: -95px;
+}
+
+.services {
+    background-color: #000000;
+    color: white;
+    padding-bottom: 63.2%;
+}
+.services img {
+    float: left;
+
+}
+
+.force {
+    margin-left: 5%;
+}

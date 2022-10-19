@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Anna ITC TT';
+    src: url('AnnaITCTT.woff2') format('woff2'),
+        url('AnnaITCTT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
