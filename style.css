@@ -93,6 +93,11 @@ body {
     ======================================================================== 
 */
 
+
+/* (╯°□°）╯︵ ┻━┻  IT DOESNT WORK!!!!! */
+
+
+
 .main {
     display: flex;
     flex-direction: column;
@@ -151,9 +156,5 @@ body {
 }
 .services img {
     float: left;
-
 }
 
-.force {
-    margin-left: 5%;
-}
